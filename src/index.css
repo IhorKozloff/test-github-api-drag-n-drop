@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-background {
+    background-image: url('./img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboard_section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.hidden-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

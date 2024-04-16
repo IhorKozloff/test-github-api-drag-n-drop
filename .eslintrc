@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "react-app",
+        "react-app/jest"
+    ],
+
+    "rules": {
+        "quotes": ["warn", "single"],
+        "jsx-quotes": ["warn", "prefer-double"],
+        "indent": ["warn", 4],
+        "semi": ["warn"],
+        "key-spacing": ["warn", { "beforeColon": false }],
+        "no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 0 }]
+    }
+  
+}
