@@ -20,3 +20,20 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.raz4 {
+    padding: .7em;
+    text-decoration: none;
+    color: blue;
+    background: no-repeat;
+    background-image: linear-gradient(blue, blue), linear-gradient(blue, blue), linear-gradient(blue, blue), linear-gradient(blue, blue);
+    background-size: 2px 0, 2px 0, 0 2px, 0 2px;
+    background-position: 0 50%, 100% 50%, 50% 0, 50% 100%;
+  }
+  .raz4:active {
+    background: #ccc;
+  }
+  .raz4:hover {
+    transition: .7s;
+    background-size: 2px 100%, 2px 100%, 100% 2px, 100% 2px;
+  }
